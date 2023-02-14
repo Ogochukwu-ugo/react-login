@@ -1,0 +1,141 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.imageContainer {
+  width: 100%;
+  height: auto;
+}
+
+.section {
+  width: 100%;
+}
+.section1 {
+  margin-left: 0rem;
+}
+
+form {
+  width: 80%;
+}
+
+.formLogo {
+  height: 5rem;
+  margin-top: 3rem ;
+}
+
+.lovePics {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.imageText {
+  position: absolute;
+    color: blue;
+    width: 100%;
+    top: 48%;
+    left: 0%;
+    text-align: center;
+}
+
+#username::placeholder,
+#password::placeholder
+{
+    color: rgb(198, 187, 187, 0.55);
+    font-size: 12.5px;
+}
+
+.text-end {
+  margin-top: -20px;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.line {
+  width:100px;
+  height: 1.5px;
+  background-color: rgb(128, 128, 128, 0.2);
+  border: none;
+  border-radius: 2px ;
+}
+
+.or {
+  margin: auto 6px;
+  margin-top: -13px;
+  color: rgb(128, 128, 128, 0.85);
+}
+
+.google {
+  height: 1.7rem;
+  width: 1.7rem;
+}
+
+.googleText {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.btn {
+  width: 200px;
+  font-weight: 600;
+  margin-top: 25px;
+}
+
+.account {
+  padding-bottom: 3px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  width: fit-content;
+}
+
+@media (min-width: 1024px){
+  .mainContainer {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .imageContainer {
+    width: 45vw;
+    height: 100%;
+  }
+
+  .formLogo {
+    height: 5rem;
+    margin-top:-3rem ;
+  }
+  .imageText {
+    position: absolute;
+      color: blue;
+      width: 100%;
+      top: 70%;
+      left: 0%;
+      text-align: center;
+  }
+
+  .section {
+    width: 90%;
+  }
+
+  .section1 {
+    margin-left: 4rem;
+  }
+  form {
+    width: 100%;
+  }
+}
